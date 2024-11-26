@@ -347,10 +347,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@elastic/elasticsearch@^8.16.1":
-  version "8.16.1"
-  resolved "https://registry.yarnpkg.com/@elastic/elasticsearch/-/elasticsearch-8.16.1.tgz#117095cab2c55cccce415ef17b226c3ad6713fa0"
-  integrity sha512-ddBaY9ITag4egeYNY+uGWi7QZSX2x+SWTEum1bvfspbEU/G5Q3g6sdlBAkg29NWIpINH6FEnaanGeO7XjNvSHQ==
+"@elastic/elasticsearch@^8.16.2":
+  version "8.16.2"
+  resolved "https://registry.yarnpkg.com/@elastic/elasticsearch/-/elasticsearch-8.16.2.tgz#67d75bf7f642cd7f8eea583186bb87da6e42359b"
+  integrity sha512-2ivc6uS97fbEeW4tNtg5mvh/Jy82ZLfcwQ1HhNhdYxyapNnQxIgZ83Zd8Ir+5jCPMDWKSYgwDb8t4GAINDDv2w==
   dependencies:
     "@elastic/transport" "^8.9.1"
     apache-arrow "^18.0.0"
@@ -1569,7 +1569,7 @@ ajv@^8.0.0:
 "amazon_server@file:.":
   version "0.0.1"
   dependencies:
-    "@elastic/elasticsearch" "^8.16.1"
+    "@elastic/elasticsearch" "^8.16.2"
     "@nestjs/cache-manager" "^2.2.2"
     "@nestjs/common" "^10.0.0"
     "@nestjs/config" "^3.2.3"
