@@ -748,7 +748,7 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@keyv/serialize@*":
+"@keyv/serialize@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@keyv/serialize/-/serialize-1.0.1.tgz#8dae240d5fe11c589e38b73a2db238dcf26a33cf"
   integrity sha512-kKXeynfORDGPUEEl2PvTExM2zs+IldC6ZD8jPcfvI351MDNtfMlw9V9s4XZXuJNDK2qR5gbEKxRyoYx3quHUVQ==
@@ -1672,7 +1672,7 @@ ajv@^8.0.0:
     amazon_server "file:."
     amqp-connection-manager "^4.1.14"
     amqplib "^0.10.4"
-    cache-manager "^6.1.0"
+    cache-manager "^6.3.1"
     cache-manager-redis-store "3.0.1"
     nodemailer "^6.9.15"
     passport "^0.7.0"
@@ -2027,12 +2027,12 @@ cache-manager-redis-store@3.0.1:
   dependencies:
     redis "^4.3.1"
 
-cache-manager@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/cache-manager/-/cache-manager-6.1.0.tgz#e1d60430b358decc8b6df2ce6cdc3013303740e4"
-  integrity sha512-Z0gN4aTrCPNxWnXJqdTM+fAFbjYV1al9PNb3bShtw8CeNuaDloYm184f4wPNodPzTBznT3F2sqzTpwlGcL2Hjg==
+cache-manager@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/cache-manager/-/cache-manager-6.3.1.tgz#723ed91489b28b39e8a2a2f3f98aceea57493fd5"
+  integrity sha512-Q8cTcjGzUaTfw/IBOZcUbu0/IUbybOy/+zQO9uluxqFIkfFb/YBZo2HVK8RLRvugeGABzi1vwVctCHQZV2Q2Ww==
   dependencies:
-    keyv "^5.0.3"
+    keyv "^5.2.1"
 
 call-bind@^1.0.7:
   version "1.0.7"
@@ -3919,12 +3919,12 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-keyv@^5.0.3:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/keyv/-/keyv-5.1.0.tgz#b371f54dff428e1a1bfe71328578266ebb62c470"
-  integrity sha512-FUr1fbKVsj9IZkPkY9reJ80Lp2B3ldtFXH+xK0wvZYzOpwgHV1er3xP4JUhu2cgkV2X3BJQw+hzAbIGqa+hNIA==
+keyv@^5.2.1:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-5.2.2.tgz#5909eac90c76c4296921d964ab233e5590326bfa"
+  integrity sha512-CRPP4Sq5ofbUE8s4FOirFmDgHeKZFRrH/8+WOUNvLJiMIplRMfnMjxmbaDb+zVd7ex0gGAWqMhZHfcL2u6PrNQ==
   dependencies:
-    "@keyv/serialize" "*"
+    "@keyv/serialize" "^1.0.1"
 
 kleur@^3.0.3:
   version "3.0.3"
