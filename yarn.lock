@@ -885,10 +885,10 @@
     jsonc-parser "3.3.1"
     pluralize "8.0.0"
 
-"@nestjs/swagger@^8.0.7":
-  version "8.0.7"
-  resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-8.0.7.tgz#7347fcd919a413a001838732f1b1966ad19df094"
-  integrity sha512-zaTMCEZ/CxX7QYF110nTqJsn7eCXp4VI9kv7+AdUcIlBmhhgJpggBw2Mx2p6xVjyz1EoWXGfxxWKnxEyaQwFlg==
+"@nestjs/swagger@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-8.1.0.tgz#e55434053df454b5058ead94e33d94dcf4525e8f"
+  integrity sha512-8hzH+r/31XshzXHC9vww4T0xjDAxMzvOaT1xAOvvY1LtXTWyNRCUP2iQsCYJOnnMrR+vydWjvRZiuB3hdvaHxA==
   dependencies:
     "@microsoft/tsdoc" "^0.15.0"
     "@nestjs/mapped-types" "2.0.6"
@@ -1667,7 +1667,7 @@ ajv@^8.0.0:
     "@nestjs/microservices" "^10.4.4"
     "@nestjs/passport" "^10.0.3"
     "@nestjs/platform-express" "^10.4.8"
-    "@nestjs/swagger" "^8.0.7"
+    "@nestjs/swagger" "^8.1.0"
     "@prisma/client" "^6.0.1"
     amazon_server "file:."
     amqp-connection-manager "^4.1.14"
