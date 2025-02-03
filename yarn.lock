@@ -860,12 +860,12 @@
   resolved "https://registry.yarnpkg.com/@nestjs/elasticsearch/-/elasticsearch-10.0.2.tgz#b86c521464aed36f756efc054869ad13c070c9ce"
   integrity sha512-G3aIU47Bc6y0CuC1hWEHItiy9aK9d1PpW20bo8bxbkIOZE58XwbUzLZ8En7VK88nTZKQjMEfaHgsXpyB1TqdAQ==
 
-"@nestjs/jwt@^10.2.0":
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/@nestjs/jwt/-/jwt-10.2.0.tgz#6aa35a04922d19c6426efced4671620f92e6dbd0"
-  integrity sha512-x8cG90SURkEiLOehNaN2aRlotxT0KZESUliOPKKnjWiyJOcWurkF3w345WOX0P4MgFzUjGoZ1Sy0aZnxeihT0g==
+"@nestjs/jwt@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/jwt/-/jwt-11.0.0.tgz#aef1590e70830c70fba0f59e9b17314dc4d36822"
+  integrity sha512-v7YRsW3Xi8HNTsO+jeHSEEqelX37TVWgwt+BcxtkG/OfXJEOs6GZdbdza200d6KqId1pJQZ6UPj1F0M6E+mxaA==
   dependencies:
-    "@types/jsonwebtoken" "9.0.5"
+    "@types/jsonwebtoken" "9.0.7"
     jsonwebtoken "9.0.2"
 
 "@nestjs/mapped-types@2.0.6":
@@ -1241,17 +1241,10 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.15.tgz#596a1747233694d50f6ad8a7869fcb6f56cf5841"
   integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
 
-"@types/jsonwebtoken@*":
+"@types/jsonwebtoken@*", "@types/jsonwebtoken@9.0.7":
   version "9.0.7"
   resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-9.0.7.tgz#e49b96c2b29356ed462e9708fc73b833014727d2"
   integrity sha512-ugo316mmTYBl2g81zDFnZ7cfxlut3o+/EQdaP7J8QN2kY6lJ22hmQYCK5EHcJHbrW+dkCGSCPgbG8JtYj6qSrg==
-  dependencies:
-    "@types/node" "*"
-
-"@types/jsonwebtoken@9.0.5":
-  version "9.0.5"
-  resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-9.0.5.tgz#0bd9b841c9e6c5a937c17656e2368f65da025588"
-  integrity sha512-VRLSGzik+Unrup6BsouBeHsf4d1hOEgYWTm/7Nmw1sXoN1+tRly/Gy/po3yeahnP4jfnQWWAhQAqcNfH7ngOkA==
   dependencies:
     "@types/node" "*"
 
@@ -1704,7 +1697,7 @@ ajv@^6.12.4, ajv@^6.12.5:
     "@nestjs/config" "^3.3.0"
     "@nestjs/core" "^10.4.12"
     "@nestjs/elasticsearch" "^10.0.2"
-    "@nestjs/jwt" "^10.2.0"
+    "@nestjs/jwt" "^11.0.0"
     "@nestjs/microservices" "^10.4.15"
     "@nestjs/passport" "^10.0.3"
     "@nestjs/platform-express" "^10.4.15"
